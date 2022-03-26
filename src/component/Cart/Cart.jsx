@@ -3,7 +3,7 @@ import './Cart.css'
 
 const Cart = (props) => {
     // console.log(props.cart)
-    const {cart } = props;
+    const {cart} = props;
     const item = [];
     for(const product of cart){
         item.push(product.name)
@@ -11,7 +11,7 @@ const Cart = (props) => {
     console.log(item)
 
     const randomElement = () =>{
-        const randomItem = item[Math.floor(Math.random()*item.length)];
+        var randomItem = item[Math.floor(Math.random()*item.length)];
     }
     
     // console.log(name)
@@ -19,7 +19,7 @@ const Cart = (props) => {
         alert('You cant select 4 times');
         
     }
-    else{
+    
         return (
             <div className='element'>
                 <h4>Selected Items</h4>
@@ -28,10 +28,10 @@ const Cart = (props) => {
                     item.map(bro => <h6>{bro}</h6>)
                 }
                 <button onClick={randomElement} className='btn-show'>Pick Random One</button>
-                <h1>Randomly Selected Phone:{}</h1>
+                <h1>Selected Item:{}</h1>
             </div>
         );
-    }
+    
 };
 
 export default Cart;
