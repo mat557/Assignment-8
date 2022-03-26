@@ -5,13 +5,10 @@ const Cart = (props) => {
     // console.log(props.cart)
     const {cart } = props;
     const item = [];
-    const num = []
     for(const product of cart){
         item.push(product.name)
-        num.push(product.id);
     }
     console.log(item)
-    console.log(num);
 
     const randomElement = () =>{
         const randomItem = item[Math.floor(Math.random()*item.length)];
@@ -31,7 +28,7 @@ const Cart = (props) => {
                     item.map(bro => <h6>{bro}</h6>)
                 }
                 <button onClick={randomElement} className='btn-show'>Pick Random One</button>
-                {/* <h1>{randomItem}</h1> */}
+                <h1>Randomly Selected Phone:{}</h1>
             </div>
         );
     }

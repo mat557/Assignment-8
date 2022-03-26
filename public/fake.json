@@ -1,7 +1,34 @@
 [
     {
         "id": "1",
-        "name": "Galaxy S22",
+        "name": "Watch Series",
+        "seller": "Samsung",
+        "price": 1120,
+        "ratings": 4,
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6-titanium.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "2",
+        "name": "Galaxy Tab S8+",
+        "seller": "Samsung",
+        "price": 1120,
+        "ratings": 4,
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "3",
+        "name": "Find X5 Lite",
+        "seller": "Samsung",
+        "price": 1120,
+        "ratings": 4,
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "4",
+        "name": "Iphone 13",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
@@ -9,74 +36,47 @@
         "quantity": 0
     },
     {
-        "id": "2",
-        "name": "Iphone 12",
-        "seller": "Samsung",
-        "price": 1120,
-        "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "quantity": 0
-    },
-    {
-        "id": "3",
-        "name": "Galaxy S10",
-        "seller": "Samsung",
-        "price": 1120,
-        "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "quantity": 0
-    },
-    {
-        "id": "4",
-        "name": "Oppo F11",
-        "seller": "Samsung",
-        "price": 1120,
-        "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "quantity": 0
-    },
-    {
         "id": "5",
-        "name": "Iphone 10",
+        "name": "Reno7 5G (China)",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-r.jpg",
         "quantity": 0
     },
     {
         "id": "6",
-        "name": "Xiaomi F1",
+        "name": "iPhone XS Max",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
         "quantity": 0
     },{
         "id": "7",
-        "name": "Galaxy S22",
+        "name": "A55",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-4g-1.jpg",
         "quantity": 0
     },
     {
         "id": "8",
-        "name": "Galaxy S22",
+        "name": "Galaxy A22 5G",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
         "quantity": 0
     },
     {
         "id": "9",
-        "name": "Galaxy S22",
+        "name": "Galaxy F52 5G",
         "seller": "Samsung",
         "price": 1120,
         "ratings": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f52-5g.jpg",
         "quantity": 0
     }
   ]
