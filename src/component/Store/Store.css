@@ -1,0 +1,17 @@
+.total-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+/* background-color: #efefef; */
+.store-container{
+    background-color: #efefef;
+    padding-top: 20px;
+}
+
+.store-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
