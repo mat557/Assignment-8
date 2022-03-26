@@ -2,14 +2,35 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart} = props;
-    console.log(props)
-    return (
-        <div className='element'>
-            <h4>Selected Items</h4>
-            <p>Total item :{cart.length}</p>
-        </div>
-    );
+    // console.log(props.cart)
+    const {cart } = props;
+    const item = [];
+    const num = []
+    for(const product of cart){
+        item.push(product.name)
+        num.push(product.id);
+    }
+    console.log(item)
+    console.log(num);
+
+
+    // console.log(name)
+    if(cart.length > 4){
+        alert('You cant select 4 times');
+        
+    }
+    else{
+        return (
+            <div className='element'>
+                <h4>Selected Items</h4>
+                <p>Total item :{cart.length}</p>
+                {
+                    item.map(bro => <h6>{bro}</h6>)
+                }
+                <button>Pick Random One</button>
+            </div>
+        );
+    }
 };
 
 export default Cart;
