@@ -2,3 +2,13 @@
     position: sticky;
     top: 10px;
 }
+
+.btn-show{
+    margin-top:40px;
+    padding:9px 25px;
+    background-color: #fff;
+    color: teal;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+}

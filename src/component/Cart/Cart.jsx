@@ -13,7 +13,10 @@ const Cart = (props) => {
     console.log(item)
     console.log(num);
 
-
+    const randomElement = () =>{
+        const randomItem = item[Math.floor(Math.random()*item.length)];
+    }
+    
     // console.log(name)
     if(cart.length > 4){
         alert('You cant select 4 times');
@@ -27,7 +30,8 @@ const Cart = (props) => {
                 {
                     item.map(bro => <h6>{bro}</h6>)
                 }
-                <button>Pick Random One</button>
+                <button onClick={randomElement} className='btn-show'>Pick Random One</button>
+                {/* <h1>{randomItem}</h1> */}
             </div>
         );
     }
