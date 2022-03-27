@@ -1,34 +1,34 @@
-import React from 'react';
+import { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    // console.log(props.cart)
-    const {cart} = props;
-    const item = [];
-    for(const product of cart){
-        item.push(product.name)
-    }
-    console.log(item)
-
-    const randomElement = () =>{
-        var randomItem = item[Math.floor(Math.random()*item.length)];
-    }
-    
-    // console.log(name)
-    if(cart.length > 4){
-        alert('You cant select 4 times');
+        const {cart} = props;
+        const {prodcts , setProdct} = useState([]);
         
-    }
-    
+        const item = [];
+        for(const ele of cart){
+            const a = ele.name;
+            item.push(a);
+        }
+
+        const randomElement = () =>{
+            setProdct([])
+            if(item.length){
+            const selectedItem = item[Math.floor(Math.random()*item.length)];
+            setProdct([selectedItem]);
+            }
+        }
         return (
             <div className='element'>
-                <h4>Selected Items</h4>
-                <p>Total item :{cart.length}</p>
+                <h4>Selected Items:{item.length}</h4>
                 {
-                    item.map(bro => <h6>{bro}</h6>)
+                    item.map(display => 
+                    <h5
+                    key={display}
+                    >{display}</h5>)
                 }
                 <button onClick={randomElement} className='btn-show'>Pick Random One</button>
-                <h1>Selected Item:{}</h1>
+                <p>{prodcts}</p>
             </div>
         );
     

@@ -6,7 +6,8 @@ import './Store.css'
 const Store = () => {
     const [items,setItem] = useState([]);
     const [cart,setCart] = useState([]);
-    console.log(cart)
+    // console.log(cart)
+    
     useEffect(() =>{
         fetch(`fake.json`)
         .then(res => res.json())
