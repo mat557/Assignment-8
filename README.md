@@ -1,7 +1,7 @@
 # The project name is - 'The Confused Bro'
 
 # Live site is :
-    
+    [https://magenta-panda-1d1256.netlify.app]
 
 # Getting Started with Create React App
 
