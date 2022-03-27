@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Watch Series",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 2120,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6-titanium.jpg",
         "quantity": 0
@@ -12,7 +12,7 @@
         "id": "2",
         "name": "Galaxy Tab S8+",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 1000,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg",
         "quantity": 0
@@ -21,7 +21,7 @@
         "id": "3",
         "name": "Find X5 Lite",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 750,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
         "quantity": 0
@@ -39,7 +39,7 @@
         "id": "5",
         "name": "Reno7 5G (China)",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 550,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-r.jpg",
         "quantity": 0
@@ -48,7 +48,7 @@
         "id": "6",
         "name": "iPhone XS Max",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 1199,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
         "quantity": 0
@@ -56,7 +56,7 @@
         "id": "7",
         "name": "A55",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 760,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-4g-1.jpg",
         "quantity": 0
@@ -65,7 +65,7 @@
         "id": "8",
         "name": "Galaxy A22 5G",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 419,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
         "quantity": 0
@@ -74,7 +74,7 @@
         "id": "9",
         "name": "Galaxy F52 5G",
         "seller": "Samsung",
-        "price": 1120,
+        "price": 699,
         "ratings": 4,
         "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f52-5g.jpg",
         "quantity": 0
