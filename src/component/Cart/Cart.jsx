@@ -15,9 +15,16 @@ const Cart = (props) => {
             setProdct([])
             if(item.length){
             const selectedItem = item[Math.floor(Math.random()*item.length)];
-            setProdct([selectedItem]);
+            // setProdct([selectedItem]);
             }
         }
+
+
+        if(item.length > 4){
+            alert("You can't select more then 4 item");
+        }
+
+
         return (
             <div className='element'>
                 <h4>Selected Items:{item.length}</h4>
@@ -28,7 +35,7 @@ const Cart = (props) => {
                     >{display}</h5>)
                 }
                 <button onClick={randomElement} className='btn-show'>Pick Random One</button>
-                <p>{prodcts}</p>
+                {/* <p>{prodcts}</p> */}
             </div>
         );
     
