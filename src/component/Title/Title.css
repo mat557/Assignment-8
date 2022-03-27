@@ -1,3 +1,10 @@
 .title{
     text-align: center;
 }
+
+
+@media screen and (max-width:414px){
+    .title h1{
+        font-size: 15px;
+    }
+}
